@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff6b81;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+#perfil .container {
+    display: flex;
+    align-items: center;
+}
+
+#perfil .foto img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#perfil .informacion h2 {
+    font-size: 2rem;
+    color: #ff6b81;
+}
+
+#experiencia h2 {
+    color: #ff6b81;
+    margin-bottom: 15px;
+}
+
+.experiencia-item {
+    margin-bottom: 20px;
+}
+
+#comentarios {
+    background-color: #ffeff2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#comentarios-lista {
+    margin-bottom: 20px;
+}
+
+#comentario-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ff6b81;
+    margin-bottom: 10px;
+}
+
+#agregar-comentario {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#agregar-comentario:hover {
+    background-color: #ff3b59;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6b81;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
